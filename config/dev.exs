@@ -3,9 +3,10 @@ use Mix.Config
 # Configure your database
 config :medium_graphql_api, MediumGraphqlApi.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "Spartan2",
   database: "medium_graphql_api_dev",
   hostname: "localhost",
+  port: "5433",
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
 
